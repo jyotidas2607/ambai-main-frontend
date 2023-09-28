@@ -168,11 +168,15 @@
         }
         .swiper-button-prev:after{
             color: #fff;
-            font-size: 20px;
+            font-size: 30px;
+            background-color: #c60000;
+            padding: 20px;
         }
         .swiper-button-next:after{
             color: #fff;
-            font-size: 20px;
+            font-size: 30px;
+            background-color: #c60000;
+            padding: 20px;
         }
     }
 }
@@ -798,6 +802,10 @@
         h5{
             line-height: 30px;
         }
+    }
+
+    .swiper-pagination-bullet-active{
+        color: red;
     }
 }
 
